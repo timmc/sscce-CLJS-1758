@@ -1,5 +1,7 @@
 # SSCCE: CLJS browser REPL
 
+**Resolution**: Was missing the body element in the HTML.
+
 ```bash
 rlwrap java -cp cljs-1.9.216.jar:src clojure.main repl.clj
 ```
